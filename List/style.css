@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 95vh;
+    background-color: #242222;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+  }
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+    margin-top: 5vh;
+    gap: 2rem;
+}
+
+.textFieldContainer {
+    display: flex;
+    height: 10vh;
+    width: 32.5rem;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    border: #ffffff86 solid 0.1rem;
+    border-radius: 0.5rem;
+}
+
+#productField {
+    width: 24rem;
+    height: 5.5vh;
+    border-radius: 0.5rem;
+    font-size: 1.15rem;
+    padding-left: 1rem;
+}
+
+#addProduct {
+    width: 3rem;
+    height: 7.5vh;
+    background-color: #ffffff00;
+    border: #fff dashed 0.15rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+#addProduct:active {
+    border: #cfcfcf dashed 0.125rem;
+    color: #cfcfcf;
+    border-radius: 0.5rem;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    width: 32.5rem;
+    height: 75vh;
+    border: #ffffff86 solid 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.listHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: #ffffff86 solid 0.1rem;
+}
+
+#btnClear {
+    width: 4rem;
+    height: 5vh;
+    background-color: #ffffff00;
+    border: #000 solid 0.15rem;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+#btnClear:active {
+    border: #1b1313 solid 0.2rem;
+    color: #b3b3b3;
+    border-radius: 0.5rem;
+}
+
+.product {
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7.5vh;
+    padding-top: 2.5vh;
+}
+
+.productVisible {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7.5vh;
+    padding-top: 2.5vh;
+}
+
+.productCheckbox {
+    width: 2.5rem;
+    height: 5vh;
+    margin-left: 1rem;
+}
+
+.productName {
+    color: #fff;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.productCompleted {
+    color: #000;
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-decoration: line-through #fff 0.15rem;
+}
+
+.btnDelete {
+    width: 2.5rem;
+    height: 5vh;
+    margin-right: 1rem;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
